@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,300&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
+nav.nav ul li {
+    display : inline;
+    margin-left : 10px;
+}
+
+nav.nav ul li a{
+    text-decoration : none;
+    color : #FFFFFF;
+    padding : 16px;
+    background : #1C1565;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav.nav ul li a:hover {
+    background : #FFFFFF;
+    color : #1C1565;
+    transition : 0.3s all;
+}
+
+nav.nav {
+    background : #1C1565;
+    padding : 0.1px;
+    text-align: center;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.cadre_notif{
+  background-color: rgba(255, 255, 144, 0.7);
+  width: 24.5%;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.main{
+  background-color: rgb(212, 212, 212, 0.85);
+  width: 70%;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.main p {
+  padding-left: 5px;
+}
+
+.notif{
+  margin: auto;
+  padding-left: 5px;
+  border-style: double;
+  width: 90%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+
+body {
+  background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/228954739_1721403308029862_7935387308823583671_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=0nXerqWufQ8AX-yuZeC&_nc_ht=scontent-cdg2-1.xx&oh=00_AT89R2coULwL3NF28gmn2Ce7hYYMMvPfQwoJie4ZWrPvUg&oe=61CA14CA");
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Lato', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: 3% 68% 35%;
+  align-items: start;
+}
+
+.container2 :first-child{
+  align-self: center;
+}
+
+div.text{
+  width: 100%;
+}
+
+.text p.txt{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div.space{
+  width: 25%;
+}
+
+div.image img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+footer{
+  color: white;
+  bottom:0;
+  position:absolute;
+  width: 100%;
+  left: 0;
+}
+
+.buttons{
+  width: 50%;
+}
+
+.face_button{
+  margin-left: 35%; 
+  text-decoration: none;
+  background:    #385898;
+  border-radius: 11px;
+  box-shadow:    2px 2px #000000;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 25px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+}
+
+.ytb_button{
+  margin-left: 35%; 
+  text-decoration: none;
+  background:    #cc0000;
+  border-radius: 11px;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 25px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+  box-shadow:    2px 2px #000000;
+}
+
+.main h1{
+  font-size: 30px;
+}
+
+.main p{
+  font-size: 25px;
+}
+
+.button{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(120,120,120,0.3);
+  border-radius: 10px;
+  border: 4mm ridge #1C1565;
+}
+
+.button a img{
+  border-radius: 50px;
+}
+
+.button a{
+  text-decoration: none;
+  color: #000;
+}
+
+.align{
+  display: grid;
+  grid-template-columns: 30.25% 3.5% 30.25% 3.5% 30.25%;
+  align-items: start;
+}
+.align :fist-child{
+  align-self: center;
+}
+
+.main h1.noel{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-family: 'Waterfall', cursive;
+  font-size: 50px;
+}
+
+.main h1{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 50px;
+}
