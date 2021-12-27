@@ -25,7 +25,7 @@ nav.nav {
     padding : 0.1px;
     text-align: center;
     border-radius: 30px;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -140,4 +140,12 @@ footer{
   text-align:    center;
   text-shadow:   1px 1px #000000;
   box-shadow:    2px 2px #000000;
+}
+
+.main h1{
+  font-size: 30px;
+}
+
+.main p{
+  font-size: 25px;
 }
