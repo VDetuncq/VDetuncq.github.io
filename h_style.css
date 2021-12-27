@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,300&family=Source+Code+Pro:wght@200&display=swap');
+
+nav.nav ul li {
+    display : inline;
+    margin-left : 10px;
+}
+
+nav.nav ul li a{
+    text-decoration : none;
+    color : #FFFFFF;
+    padding : 16px;
+    background : #1C1565;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav.nav ul li a:hover {
+    background : #FFFFFF;
+    color : #1C1565;
+    transition : 0.3s all;
+}
+
+nav.nav {
+    background : #1C1565;
+    padding : 0.1px;
+    text-align: center;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.cadre_notif{
+  background-color: rgba(255, 255, 144, 0.7);
+  width: 24.5%;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container :first-child{
+  align-self: center;
+}
+
+.main{
+  background-color: rgb(212, 212, 212, 0.85);
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main p {
+  padding-left: 5px;
+}
+
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+
+body {
+  background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/269879369_1827188904117968_8435749554342505284_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=b0JCp3lLQX8AX_RDQ01&_nc_ht=scontent-cdg2-1.xx&oh=00_AT-jtXoUEnTj9BYtCSUHw8uFj9D0b0DWYTJNeCACRDe4Tw&oe=61CB0FFF");
+  background-color: rgba(0,0,0,0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+}
+
+.container2 :first-child{
+  align-self: center;
+}
+
+div.text{
+  width: 100%;
+}
+
+.text p.txt{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div.space{
+  width: 25%;
+}
+
+div.image img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+.buttons{
+  width: 50%;
+}
+
+.face_button{
+  margin-left: 35%; 
+  text-decoration: none;
+  background:    #385898;
+  border-radius: 11px;
+  box-shadow:    2px 2px #000000;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 25px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+}
+
+.ytb_button{
+  margin-left: 35%; 
+  text-decoration: none;
+  background:    #cc0000;
+  border-radius: 11px;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 25px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+  box-shadow:    2px 2px #000000;
+}
+
+.entrainement h3{
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.entrainement p{
+  font-size: 25px;
+}
