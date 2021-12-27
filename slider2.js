@@ -4,8 +4,8 @@ var numero = 0;
 function ChangeSlide2(sens) {
     numero = numero + sens;
     if (numero < 0)
-        numero = slide.length - 1;
-    if (numero > slide.length - 1)
+        numero = slide2.length - 1;
+    if (numero > slide2.length - 1)
         numero = 0;
     document.getElementById("slide2").src = slide2[numero];
 }
